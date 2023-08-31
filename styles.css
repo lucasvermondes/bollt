@@ -10,6 +10,8 @@ header {
     padding: 30px;
     padding-left: 0;
     padding-right: 0;
+    margin: auto;
+    max-height: 100px;
 }
 
 nav {
@@ -26,7 +28,7 @@ nav {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    padding: 30px;
+    padding: 31px;
     max-width: 100px;
 }
 
@@ -53,6 +55,7 @@ nav {
     color: #fff;
     text-decoration: none;
     padding: 30px;
+    
 }
 
 .right-links a:hover {
