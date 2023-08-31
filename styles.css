@@ -192,6 +192,41 @@ nav {
     margin: 20px 0;
 }
 
+main {
+    min-height: calc(100vh - 50px - 100px); /* replace with actual footer height */
+    margin-bottom: 20px;
+  }
+  
+  .container h1 {
+	font-family: 'Raleway';
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-size: 50px;
+}
+hr {
+	border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.thumbnail {
+	margin-bottom:6px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+    
+.blur {
+    transform: scale(0.9);
+    opacity: 0.6;
+  	-webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
 /* FOOTER - inicio */
 
 .info-list {
@@ -222,13 +257,15 @@ nav {
     padding: 10px;
     font-size: 1.3vh;
     margin: 0;
+    margin-top: auto;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-around;
     max-width: 100%;
-    margin: 0 auto;
+    
+    
 }
 
 .contact-info, .questions,
@@ -237,9 +274,10 @@ nav {
     margin: 5px;
 }
 
-.contact-info h3,
+.contact-info h3, .questions h3,
 .social-media h3 {
     color: #FD5521;
+    font-size: 2vh;
 }
 
 .social-links {
