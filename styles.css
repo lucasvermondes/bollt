@@ -9,8 +9,7 @@ header {
     color: #fff;
     padding: 30px;
     padding-left: 0;
-    padding-right: 0
-    ;
+    padding-right: 0;
 }
 
 nav {
@@ -104,6 +103,7 @@ nav {
         padding: 10px;
         margin: 0;
     }
+
     .right-links li {
         margin-right: 0;
     }
@@ -129,6 +129,7 @@ nav {
         align-items: center;
         max-width: 100%;
     }
+
     .site-footer {
         background-color: #333;
         color: #fff;
@@ -141,7 +142,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh; /* Make the section full viewport height */
+    height: 20vh;
+    /* Make the section full viewport height */
     color: #FD5521;
     ;
     text-align: center;
@@ -162,7 +164,8 @@ nav {
 
 .about-text {
     flex: 1;
-    padding-right: 20px; /* Add some spacing between text and image */
+    padding-right: 20px;
+    /* Add some spacing between text and image */
 }
 
 .about-text h2 {
@@ -174,7 +177,8 @@ nav {
 }
 
 .about-image1 img {
-    max-width: 100%; /* Make sure the image doesn't overflow its container */
+    max-width: 100%;
+    /* Make sure the image doesn't overflow its container */
     height: auto;
 }
 
@@ -193,34 +197,36 @@ nav {
 }
 
 main {
-    min-height: calc(100vh - 50px - 100px); /* replace with actual footer height */
+    min-height: calc(100vh - 50px - 100px);
+    /* replace with actual footer height */
     margin-bottom: 20px;
-  }
-  
-  .container h1 {
-	font-family: 'Raleway';
-	font-weight: 900;
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	font-size: 50px;
 }
+
+.container h1 {
+    font-family: 'Raleway';
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 50px;
+}
+
 hr {
-	border: 0;
+    border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .thumbnail {
-	margin-bottom:6px;
-  display:flex;
-  flex-wrap: wrap;
+    margin-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-    
+
 .blur {
     transform: scale(0.9);
     opacity: 0.6;
-  	-webkit-filter: blur(2px);
+    -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
@@ -264,17 +270,19 @@ hr {
     display: flex;
     justify-content: space-around;
     max-width: 100%;
-    
-    
+
+
 }
 
-.contact-info, .questions,
+.contact-info,
+.questions,
 .social-media {
     flex: 1;
     margin: 5px;
 }
 
-.contact-info h3, .questions h3,
+.contact-info h3,
+.questions h3,
 .social-media h3 {
     color: #FD5521;
     font-size: 2vh;
@@ -300,11 +308,13 @@ hr {
 }
 
 .social-links a {
-    text-decoration: none !important; /* Remove text decoration */
+    text-decoration: none !important;
+    /* Remove text decoration */
     color: inherit;
 }
 
 .questions a {
-    text-decoration: none !important; /* Remove text decoration */
+    text-decoration: none !important;
+    /* Remove text decoration */
     color: inherit;
 }
