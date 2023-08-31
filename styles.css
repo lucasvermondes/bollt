@@ -5,17 +5,18 @@ body {
 }
 
 header {
-    background-color: rgb(113, 113, 113);
+    background-color: #333;
     color: #fff;
     padding: 30px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
 }
 
-.left link{
+.left link {
     max-width: 100px;
 }
 
@@ -39,11 +40,11 @@ nav {
     list-style: none;
     margin: 0;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .right-links li {
-    margin-right: 10px;   
+    margin-right: 10px;
 }
 
 .right-links a {
@@ -54,22 +55,25 @@ nav {
 
 .right-links a:hover {
     color: black;
-    text-decoration: none;    
-    background-color: #fff;    
+    text-decoration: none;
+    background-color: #fff;
 }
 
-#ligar{
+#ligar {
     background-color: #FD5521;
-    
+
 }
-#ligar:hover{
+
+#ligar:hover {
     background-color: black;
     color: #FD5521;
 }
-.home2{
-    display:none;    
+
+.home2 {
+    display: none;
 }
-.about-image2{
+
+.about-image2 {
     display: none;
     width: 100px;
 }
@@ -79,17 +83,19 @@ nav {
         padding: 0;
     }
 
-    .home1{
+    .home1 {
         display: none;
     }
-    .home2{
+
+    .home2 {
         display: inline-block;
     }
 
-    .left-link a{
+    .left-link a {
         padding: 10px;
 
     }
+
     .right-links a {
         padding: 10px;
     }
@@ -97,10 +103,11 @@ nav {
     .about-content {
         flex-direction: column;
     }
-    
-    .about-text{
+
+    .about-text {
         padding: 10px;
     }
+
     /*.about-image1 img {
         display: none;
     }
@@ -109,29 +116,27 @@ nav {
         width: 70%;
         display: inline;               
     }*/
-    .about-content {        
-        flex-direction: column;       
+    .about-content {
+        flex-direction: column;
         align-items: center;
-        max-width: 70%;
+        max-width: 100%;
     }
-    
-    
 }
-
-/* Additional media queries for larger screens can be added here */
 
 .centered-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh; /* Make the section full viewport height */    
-    color: #FD5521;;
-    text-align: center;    
+    height: 20vh; /* Make the section full viewport height */
+    color: #FD5521;
+    ;
+    text-align: center;
 }
 
 .centered-section h2 {
     font-size: 3vh;
 }
+
 .about-content {
     display: flex;
     flex-direction: column;
@@ -145,22 +150,24 @@ nav {
     flex: 1;
     padding-right: 20px; /* Add some spacing between text and image */
 }
-.about-text h2{
+
+.about-text h2 {
     font-size: 3vh;
 }
-.about-text p{
+
+.about-text p {
     text-align: center;
 }
 
 .about-image1 img {
-    max-width: 70%; /* Make sure the image doesn't overflow its container */
+    max-width: 100%; /* Make sure the image doesn't overflow its container */
     height: auto;
 }
 
 .about-section {
     padding: 40px;
     background-color: #f5f5f5;
-    text-align: center;    
+    text-align: center;
 }
 
 .about-section h2 {
@@ -170,6 +177,8 @@ nav {
 .about-section p {
     margin: 20px 0;
 }
+
+/* FOOTER - inicio */
 
 .info-list {
     list-style: none;
@@ -192,16 +201,18 @@ nav {
     font-weight: bold;
     color: #FD5521;
 }
+
 .site-footer {
     background-color: #333;
     color: #fff;
-    padding: 40px 0;
+    padding: 20px;
+    font-size: 1.3vh;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-around;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -219,16 +230,13 @@ nav {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     text-decoration: none;
 }
 
-.social-links img {
-    width: 30px;
-    height: 30px;
-}
 
-.questions h3{
+
+.questions h3 {
     color: #FD5521;
 }
 
@@ -236,10 +244,12 @@ nav {
     text-align: center;
     margin-top: 20px;
 }
+
 .social-links a {
     text-decoration: none !important; /* Remove text decoration */
     color: inherit;
 }
+
 .questions a {
     text-decoration: none !important; /* Remove text decoration */
     color: inherit;
